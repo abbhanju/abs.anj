@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A Little Surprise</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="experience" aria-live="polite">
+      <div class="sky" aria-hidden="true">
+        <div class="stars"></div>
+        <div class="moon"></div>
+        <div class="petal-field"></div>
+      </div>
+
+      <nav class="progress" aria-label="Story progress">
+        <span class="dot is-active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </nav>
+
+      <section class="scene scene-landing is-active" data-scene="landing">
+        <div class="scene-inner center">
+          <p class="small-line" id="landing-name">Hi, My Love</p>
+          <h1>I made something for you.</h1>
+          <p class="lead">Will you give me<br />just a few minutes?</p>
+          <button class="primary-action" data-next>Continue <span>❤️</span></button>
+        </div>
+      </section>
+
+      <section class="scene scene-invitation" data-scene="invitation">
+        <div class="scene-inner center">
+          <div class="invitation" id="invitation">
+            <div class="envelope" aria-hidden="true">
+              <div class="flap"></div>
+              <div class="letter-preview">
+                <span>❤️</span>
+              </div>
+              <div class="pocket"></div>
+            </div>
+            <button class="seal-button" id="open-invitation">Open Invitation</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene-letter" data-scene="letter">
+        <div class="scene-inner letter-layout">
+          <article class="letter-paper">
+            <p class="letter-text" id="letter-text"></p>
+            <span class="cursor" aria-hidden="true"></span>
+          </article>
+          <button class="primary-action is-hidden" id="letter-continue" data-next>
+            Continue <span>❤️</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="scene scene-proposal" data-scene="proposal">
+        <div class="scene-inner proposal-layout">
+          <p class="small-line proposal-intro">Now...</p>
+          <div class="glow-heart" aria-hidden="true">❤️</div>
+          <h2>
+            <span>Will You</span>
+            <span>Be My</span>
+            <span>Girlfriend?</span>
+          </h2>
+          <div class="choice-row">
+            <button class="yes-button" id="yes-button">YES ❤️</button>
+            <button class="no-button" id="no-button">NO 🙈</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene-celebration" data-scene="celebration">
+        <canvas class="confetti-canvas" id="confetti-canvas" aria-hidden="true"></canvas>
+        <div class="scene-inner center celebration-copy">
+          <h2>You just made<br />me the happiest person ❤️</h2>
+          <p class="lead">I will remember this moment forever.</p>
+          <button class="primary-action" data-next>Our Memories</button>
+        </div>
+      </section>
+
+      <section class="scene scene-memories" data-scene="memories">
+        <div class="scene-inner scrapbook">
+          <p class="small-line">Our Memories</p>
+          <div class="memory-grid" id="memory-grid"></div>
+          <button class="primary-action" data-next>Continue <span>❤️</span></button>
+        </div>
+      </section>
+
+      <section class="scene scene-shayari" data-scene="shayari">
+        <div class="scene-inner handwritten-layout">
+          <article class="handwritten-paper">
+            <p id="shayari-text"></p>
+            <span class="cursor" aria-hidden="true"></span>
+          </article>
+          <button class="primary-action is-hidden" id="shayari-continue" data-next>
+            Continue <span>❤️</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="scene scene-final" data-scene="final">
+        <div class="scene-inner center final-copy">
+          <h2>Thank You</h2>
+          <p class="lead">
+            for reading<br />
+            everything.
+          </p>
+          <p class="promise">This is just the beginning<br />of our story.</p>
+          <div class="final-heart" aria-hidden="true">❤️</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
