@@ -1,8 +1,7 @@
 const story = {
   herName: "Anjali",
   letter: [
-    "hii anju bahut dino se eak bat kehni thi samaj nahi aa raha kaise kahu mai nahi janta ki tu ise wapas kholegi bhi ya nahi par agar khol rahi hai to mai bus itna kehna chaunga ki mai janta hu mai confusion create kar raha hu bahut aur tu bhi confised hai ha mana ki mai bus tera jawab sunne ke liye aya tha yaha jiske liye mai har bar koi na koi nya tarika nikal raha hu jo ki shayad galat ho sakta hai jiske liye I am really sorry mai bus itna hi kehna chaata hu yar ki atleast matlab agar tere liye possible ho sake to yar ignore to mat kar mai force nahi karunga i will wait pata nahi kyu par itna pass hoke aur jyada dur se ho gye hai aaisa lag raha hai pehle jaise na to ab bate hoti hai sab badal sa gya hai ye socha bhi nahi tha yar maine mai nahi chaata ki tujhse bat karna hi band ho jaye ha par agar tujhe chayea ki mai chale jau to bata dena i won't say or ask anything bus yar ignore mat karna I know ki tere liye bahut hard hoga wapas believe karna kisi pe bhi khas kar jo hua hai pehle mere liye khud hota/hoga bus yar agar tu jawab dena chaati hai to jaldi de de last mai to yehi kehna chaaunga aaisa nahi hai ki mujhe koi aur pasand hai bus agar jawab yaha rehaye mai jaldi mil jaye kahi jane se pehle to shayad thoda celebrate kar paye \nyour ashik Abhay Suyal",
-    "\n\nDear Anju,\n\n",
+    "Dear Anju,\n\n",
     "Har pal jo tumhare saath guzarta hai,\n",
     "ek khoobsurat sapne jaisa lagta hai...\n",
     "jisse main kabhi jaagna nahi chahta.\n\n",
